@@ -2,16 +2,16 @@ angka1 = int(input('masukan angka pertama: '))
 angka2 = int(input('masukan angka kedua: '))
 operation = str(input('pilih: tambah, kurang, kali, bagi: '))
 
-if operation == 'tambah' or '+':
+if operation == 'tambah' or operation == '+':
     hasil = angka1 + angka2
     print(f"{angka1} + {angka2} = {hasil}")
-elif operation == 'kurang' or '-':
+elif operation == 'kurang' or operation == '-':
     hasil = angka1 - angka2
     print(f"{angka1} - {angka2} = {hasil}")
-elif operation == 'kali' or 'x':
+elif operation == 'kali' or operation == 'x':
     hasil = angka1 * angka2
     print(f"{angka1} x {angka2} = {hasil}")
-elif operation == 'bagi' or '/':
+elif operation == 'bagi' or operation == '/':
     hasil = angka1 / angka2
     print(f"{angka1} / {angka2} = {hasil}")
 else:
